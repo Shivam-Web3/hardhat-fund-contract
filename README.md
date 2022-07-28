@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# Hardhat Fund Me Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This is a basic solidity-hardhat project built by learning through fcc (Patrick Collins). It can be deployed on any network, testnet etc and one can fund and owner can withdraw through it. 
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+yarn hardhat deploy
+yarn test
+yarn coverage
+yarn format
 ```
